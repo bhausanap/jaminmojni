@@ -7,7 +7,171 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <style>
+       * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+.photo-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  border: 3px solid #f4ecec;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+    label {
+      font-size: 18px;
+      display: block;
+      margin: 10px 0;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+
+    @media (max-width: 500px) {
+      .photo-container {
+        width: 120px;
+        height: 120px;
+      }
+
+      label {
+        font-size: 16px;
+      }
+
+      img[alt="Chat on WhatsApp"] {
+        width: 80px;
+      }
+    }
+
         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+            font-weight: 900;
+        }
+
+        .container {
+            max-width: 500px;
+            margin-top: 15px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label, input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content:space-evenly;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 500px) {
+            button {
+                width: 48%;
+            }
+            #btn{
+                background-color: red;
+            
+            }
+        }
+        .rup{
+            color: red;
+        }
+        #output{
+            color: red;
+            font-weight:900;
+        }
+        .me{
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        width: 30px
+        justify-content:auto;
+        }
+     p{
+        font-weight: 900;
+    }
+    #bhav{
+        font-weight:900;
+    }
+    #shetra{
+        font-weight:900;
+    }
+      
+      
+      
+      
+      
+      body {
             margin: 30px;
             font-family: Arial, sans-serif;
             background: #f9f9f9;
@@ -101,6 +265,32 @@
 </head>
 <body>
     <div class="container">
+    <header>
+      <div class="photo-container">
+        <img class="photo" src="bhau.jpg" alt="bhausaheb sanap photo" />
+      </div>
+
+      <label>प्रगतशील शेतकरी <br />भाऊसाहेब सानप (आयटी इंजीनियर)</label>
+      <p>
+        <i class="fa fa-phone" style="font-size: 15px"></i> Phone Number:
+        <a href="tel:+917798755784">+91 7798755784</a>
+      </p>
+      <p>
+        <i class="fa fa-envelope" style="font-size: 15px"></i> Email ID:
+        <a href="mailto:bhausahebsanap95@gmail.com">bhausahebsanap95@gmail.com</a>
+      </p>
+      <p>
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/7798755784">
+          <img alt="Chat on WhatsApp" src="wh.png" style="width: 100px" />
+        </a>
+      </p>
+    </header>
+
+
+
+
+
+    <div class="container">
         <h1 class="heading1">क्षेत्र मोजणी </h1>
         <p class="credit">💕 Made By Bhausaheb Sanap 💕</p>
         
@@ -123,6 +313,17 @@
             </div>
         </div>
     </div>
+
+
+    <footer>
+      <hr />
+      <label>
+        पत्ता: गट नंबर 56 ते 62 (वडझिरे), हनुमान नगर ढाबे वस्ती, पोस्टऑफिस: नायगाव, तालुका: सिन्नर, जिल्हा: नाशिक
+      </label><hr>
+      <br />
+      <label>© 2025 All rights reserved. </label>
+    </footer>
+  </div>
 
     <script>
         function divideBy() {
