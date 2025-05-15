@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mojni</title>
+  
+  <style>
+         * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+.photo-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  border: 3px solid #f4f2f2;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+    label {
+      font-size: 18px;
+      display: block;
+      margin: 10px 0;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+
+    @media (max-width: 500px) {
+      .photo-container {
+        width: 120px;
+        height: 120px;
+      }
+
+      label {
+        font-size: 16px;
+      }
+
+      img[alt="Chat on WhatsApp"] {
+        width: 80px;
+      }
+    }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+            font-weight: 900;
+        }
+
+        .container {
+            max-width: 500px;
+            margin-top: 15px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label, input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content:space-evenly;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 500px) {
+            button {
+                width: 48%;
+            }
+            #btn{
+                background-color: red;
+            
+            }
+        }
+        .rup{
+            color: red;
+        }
+        #output{
+            color: red;
+            font-weight:900;
+        }
+        .me{
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        width: 30px
+        justify-content:auto;
+        }
+     p{
+        font-weight: 900;
+    }
+    #bhav{
+        font-weight:900;
+    }
+    #shetra{
+        font-weight:900;
+    }
+   
+   body ,h2{
+      font-family: Arial, sans-serif;
+      background-color: #fbfaf9;
+      margin: 0;
+      padding: 0;
+      font-weight: 900;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,128,0,0.1);
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #010a02;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+      color: #010d02;
+    }
+
+    input[type=number] {
+      width: 99%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      -moz-appearance: textfield;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content:space-evenly;
+      margin-top: 15px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 22%;
+    }
+
+    .btn-success {
+      background-color: #4caf50;
+    }
+
+    .btn-danger {
+      background-color: #f44336;
+    }
+
+    .result {
+      margin-top: 20px;
+      color: #f10c0c;
+      font-weight: 700;
+    }
+
+    @media (max-width: 500px) {
+      .btn-group {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+    .bhiga1{
+        background-color: rgb(4, 4, 4);
+        color: white;
+        font-weight: 900;
+        width: 50%;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: 25%;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+  <header>
+      <div class="photo-container">
+        <img class="photo" src="bhau.jpg" alt="bhausaheb sanap photo" />
+      </div>
+
+      <label>प्रगतशील शेतकरी <br />भाऊसाहेब सानप (आयटी इंजीनियर)</label>
+      <p>
+        <i class="fa fa-phone" style="font-size: 15px"></i> Phone Number:
+        <a href="tel:+917798755784">+91 7798755784</a>
+      </p>
+      <p>
+        <i class="fa fa-envelope" style="font-size: 15px"></i> Email ID:
+        <a href="mailto:bhausahebsanap95@gmail.com">bhausahebsanap95@gmail.com</a>
+      </p>
+      <p>
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/7798755784">
+          <img alt="Chat on WhatsApp" src="wh.png" style="width: 100px" />
+        </a>
+      </p>
+    </header>
+    
+<div class="container">
+  <h2>समान बाजू नसलेले क्षेत्र मोजणी</h2>
+
+  <label for="a">पहिली रुंद बाजू :</label>
+  <input type="number" id="a">
+
+  <label for="b">दुसरी रुंद बाजू :</label>
+  <input type="number" id="b">
+
+  <label for="d">पहिली लांब बाजू :</label>
+  <input type="number" id="d">
+
+  <label for="e">दुसरी लांब बाजू :</label>
+  <input type="number" id="e">
+
+  <div class="btn-group">
+    <button onclick="calculate()" class="btn btn-success">Calculate</button>
+    <button onclick="clear1()" class="btn btn-danger">Clear</button>
+  </div>
+
+  <div class="result">
+    <p>क्षेत्राची रुंदी: <span id="result1"></span></p>
+    <p>क्षेत्राची लांबी: <span id="result2"></span></p>
+    <p>जमिनीचे एकूण क्षेत्र: <span id="result"></span> </p>
+    <p class="bhiga1"><span id="result3"></span></p>
+  </div>
+</div>
+</div>
+<script>
+  function calculate() {
+    let a = parseFloat(document.getElementById("a").value);
+    let b = parseFloat(document.getElementById("b").value);
+    let d = parseFloat(document.getElementById("d").value);
+    let e = parseFloat(document.getElementById("e").value);
+
+    if (!isNaN(a) && !isNaN(b) && !isNaN(d) && !isNaN(e)) {
+      let c = (a + b) / 2;
+      let f = (d + e) / 2;
+      let g = (c * f) / 1089;
+
+      let bhiga = g / 20;
+      let finalbhiga = Math.trunc(bhiga);
+      let h = Math.trunc(g);
+
+      let gunthe = bhiga - Math.floor(bhiga);
+      let finalgunthe = Math.trunc((gunthe * 10) * 2);
+
+      document.getElementById("result").innerText = h+ " गुंठे";;
+      document.getElementById("result1").innerText = c + " फुट ही आहे";
+      document.getElementById("result2").innerText = f + " फुट ही आहे";
+      document.getElementById("result3").innerText = finalbhiga + " भिगे " + finalgunthe + " गुंठे";
+    }
+  }
+
+  function clear1() {
+    document.getElementById("a").value = "";
+    document.getElementById("b").value = "";
+    document.getElementById("d").value = "";
+    document.getElementById("e").value = "";
+
+    document.getElementById("result").innerText = "";
+    document.getElementById("result1").innerText = "";
+    document.getElementById("result2").innerText = "";
+    document.getElementById("result3").innerText = "";
+  }
+</script>
+
+</body>
+</html>
